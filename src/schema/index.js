@@ -1,3 +1,6 @@
+ import { gql } from "apollo-server-express";
+ 
+ 
  import noteSchema from "./notes";
 
  const linkSchema = gql `
